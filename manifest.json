@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+  
+    "name": "scoopExtractor",
+    "description": "Extension to extract scoop id's from core UI",
+    "version": "1.0",
+    "icons": { "16": "ice_cream_16.png", "48": "ice_cream_48.png", "128": "ice_cream_128.png"},
+    "browser_action": {
+      "default_icon": "ice_cream_128.png"
+    },
+    "permissions": [
+      "activeTab",
+      "storage",
+      "tabs",
+      "https://www.nytimes.com/*"
+    ],
+    "background":{
+      "scripts": ["scoopExtractor.js"]
+    }
+  }
