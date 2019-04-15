@@ -1,9 +1,9 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 2,
 
   "name": "scoopExtractor",
   "description": "Extension to extract scoop id's from core UI, or from the CMS",
-  "version": "1.0",
+  "version": "1.1",
   "icons": {
     "16": "ice_cream_16.png",
     "48": "ice_cream_48.png",
